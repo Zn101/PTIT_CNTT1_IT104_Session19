@@ -14,7 +14,7 @@ export default function Form() {
 
   const validateEmail = (value: string) => {
     if (!value.trim()) {
-      return "Trường này là bắt buộc";
+      return "Truong nay la bat buoc";
     }
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!regex.test/(value)) {
@@ -72,3 +72,4 @@ export default function Form() {
     </form>
   );
 }
+
